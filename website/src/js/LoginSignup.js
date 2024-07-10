@@ -7,7 +7,8 @@ export default function LoginSignup() {
     <div className='login-app'>
         <div className='loginContainer'>
           <form>
-            <Component.Input></Component.Input>
+            <Component.Input type='email' placeholder='Email/Username'/>
+            <Component.Input type='password' placeholder='Password'/>
           </form>
 
         </div>

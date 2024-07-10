@@ -23,6 +23,10 @@ font-size: 12px;
 font-weight: bold;
 padding: 1.5% 13.5%;
 border-radius: 20px;
+transition: background-color 0.3s ease; 
 
+&:hover{
+background-color:black;
 
+}
 `;

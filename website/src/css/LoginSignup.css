@@ -10,8 +10,9 @@
 }
 
 .loginContainer{
-    width: 62%;
-    height: 72%;
-    background-color: brown;
+    width: 65%;
+    height: 80%;
+    background-color: rgb(103, 20, 20);
     border-radius: 2%/3%;
+
 }

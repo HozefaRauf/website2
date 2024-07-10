@@ -1,12 +1,14 @@
 import React from 'react'
-import Container from '../components/Container.js'
+import * as Component from '../components/Component'
 import '../css/LoginSignup.css'
 
 export default function LoginSignup() {
   return (
     <div className='login-app'>
         <div className='loginContainer'>
-          <Container />
+          <form>
+            <Component.Input></Component.Input>
+          </form>
 
         </div>
     </div>

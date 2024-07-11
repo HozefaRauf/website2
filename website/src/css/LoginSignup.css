@@ -26,8 +26,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 .forgot{
-    color: rgb(146, 7, 7);
+    color: rgb(4, 49, 208);
     font-weight: bold;
+    text-decoration: none;
 }

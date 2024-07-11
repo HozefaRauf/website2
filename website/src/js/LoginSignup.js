@@ -11,7 +11,7 @@ export default function LoginSignup() {
             <Component.Input type='password' placeholder='Password'/>
             <div className='forgot-remember'>
               <label className='remember'><input type='checkbox' id='remember-me' name='remember-me'/>Remember Me</label>
-              <a className='forgot'>Forgot Password?</a>
+              <a href='#' className='forgot'>Forgot Password?</a>
             </div>
             <Component.Button>SIGN IN</Component.Button>
           </form>

@@ -37,7 +37,8 @@ export default function LoginSignup() {
             </div>
 
             <div className='right-banner'>
-
+            <h1>Create Account</h1>
+            
             </div>
             
           </div>

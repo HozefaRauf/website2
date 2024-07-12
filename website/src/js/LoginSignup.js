@@ -35,7 +35,7 @@ export default function LoginSignup() {
             <div className='left-banner'>
               <h1>Sign In</h1>
               <Component.Button>SIGN IN</Component.Button>
-
+              
             </div>
 
             <div className='right-banner'>

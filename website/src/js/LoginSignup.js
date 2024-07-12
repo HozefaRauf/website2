@@ -33,12 +33,12 @@ export default function LoginSignup() {
           <div className='banner'>
 
             <div className='left-banner'>
-
+              <h1>Sign In</h1>
             </div>
 
             <div className='right-banner'>
             <h1>Create Account</h1>
-            
+
             </div>
             
           </div>

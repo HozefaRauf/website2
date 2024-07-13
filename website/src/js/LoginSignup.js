@@ -34,12 +34,15 @@ export default function LoginSignup() {
 
             <div className='left-banner'>
               <h1>Sign In</h1>
+              <p>welcome to our website </p>
               <Component.Button>SIGN IN</Component.Button>
+              <p></p>
               
             </div>
 
             <div className='right-banner'>
             <h1>Create Account</h1>
+            
             <Component.Button>SIGN UP</Component.Button>
 
 

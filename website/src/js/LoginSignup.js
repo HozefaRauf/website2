@@ -42,7 +42,7 @@ export default function LoginSignup() {
 
             <div className='right-banner'>
             <h1>Create Account</h1>
-            
+            <p>create account to enjoy personalized experience</p>
             <Component.Button>SIGN UP</Component.Button>
 
 

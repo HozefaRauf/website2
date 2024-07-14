@@ -42,7 +42,8 @@ export default function LoginSignup() {
 
             <div className='right-banner'>
             <h1>Create Account</h1>
-            <p>create account to enjoy personalized experience</p>
+            <p>create account to enjoy personalized experience to thid website</p>
+            <p>...</p>
             <Component.Button>SIGN UP</Component.Button>
 
 

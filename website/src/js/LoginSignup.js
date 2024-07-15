@@ -35,7 +35,7 @@ export default function LoginSignup() {
             <div className='left-banner' activity={signin}>
               <h1>Sign In</h1>
               <p>welcome to our website </p>
-              <Component.Button onClick={()=> toggle(true)}>SIGN IN</Component.Button>
+              <Component.GhostButton onClick={()=> toggle(true)}>SIGN IN</Component.GhostButton>
               <p></p>
               
             </div>
@@ -44,7 +44,7 @@ export default function LoginSignup() {
             <h1>Create Account</h1>
             <p>create account to enjoy personalized experience to thid website</p>
             <p>...</p>
-            <Component.Button onClick={()=> toggle(false)}>SIGN UP</Component.Button>
+            <Component.GhostButton onClick={()=> toggle(false)}>SIGN UP</Component.GhostButton>
 
 
             </div>

@@ -1,4 +1,10 @@
 .login-app{
+    background: #452b2b;
+    background: -webkit-linear-gradient(to right, #180101, #451821);
+    background: linear-gradient(to right, #252323, #5c0211);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
     display: flex;
     align-items: center;
     justify-content: center;

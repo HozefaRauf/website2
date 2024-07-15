@@ -8,7 +8,7 @@ export default function LoginSignup() {
     <div className='login-app'>
     <div className='container'>
 
-        <div className='signin-container' activity={signin}>
+        <div className={`signin-container ${!signin ? 'active' : ''}`}>
           <form className='login-form'>
             <Component.Input type='email' placeholder='Email / Username'/>
             <Component.Input type='password' placeholder='Password'/>
@@ -20,7 +20,7 @@ export default function LoginSignup() {
           </form>
         </div>
 
-        <div className='signup-container' activity={signin}>
+        <div className={`signup-container ${!signin ? 'active' : ''}`}>
           <form className='login-form'>
           <Component.Input type='text' placeholder='Name'/>
           <Component.Input type='email' placeholder='Email'/>

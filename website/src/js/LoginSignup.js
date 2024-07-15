@@ -40,7 +40,7 @@ export default function LoginSignup() {
               
             </div>
 
-            <div className='right-banner' activity={signin}>
+            <div className={`banners right-banner ${!signin ? 'active' : ''}`}>
             <h1>Create Account</h1>
             <p>create account to enjoy personalized experience to thid website</p>
             <p>...</p>

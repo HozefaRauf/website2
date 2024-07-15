@@ -91,6 +91,13 @@
 .left-banner.active{
     transform: translateX(0);
 }
+.right-banner{
+    right: 0;
+    transform: translateX(0);
+}
+.right-banner.active{
+    transform: translateX(20%);
+}
 .login-form{
     display: flex;
     flex-direction: column;

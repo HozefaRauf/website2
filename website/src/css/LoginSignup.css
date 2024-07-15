@@ -60,9 +60,9 @@
     transform: translateX(-100%);
 }
 .banner{
-    background: #ff416c;
-    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    background: #800000;
+    background: -webkit-linear-gradient(to right, #2b0707, #b00d2e);
+    background: linear-gradient(to right, #510c17, #8a1022);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;

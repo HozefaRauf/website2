@@ -32,7 +32,7 @@ export default function LoginSignup() {
         <div className={`banner-container ${!signin ? 'active' : ''}`}>
           <div className={`banner ${!signin ? 'active' : ''}`}>
 
-            <div className='left-banner' activity={signin}>
+            <div className={`banners left-banner ${!signin ? 'active' : ''}`}>
               <h1>Sign In</h1>
               <p>welcome to our website </p>
               <Component.GhostButton onClick={()=> toggle(true)}>SIGN IN</Component.GhostButton>

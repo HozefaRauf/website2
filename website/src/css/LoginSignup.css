@@ -85,6 +85,12 @@
     transform: translateX(0);
     transition: transform 0.6s ease-in-out;
 }
+.left-banner{
+    transform: translateX(-20%);
+}
+.left-banner.active{
+    transform: translateX(0);
+}
 .login-form{
     display: flex;
     flex-direction: column;

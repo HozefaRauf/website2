@@ -8,7 +8,7 @@ export default function LoginSignup() {
     <div className='login-app'>
     <div className='container'>
 
-        <div className='signin-container'>
+        <div className='signin-container' activity={signin}>
           <form className='login-form'>
             <Component.Input type='email' placeholder='Email / Username'/>
             <Component.Input type='password' placeholder='Password'/>
@@ -20,7 +20,7 @@ export default function LoginSignup() {
           </form>
         </div>
 
-        <div className='signup-container'>
+        <div className='signup-container' activity={signin}>
           <form className='login-form'>
           <Component.Input type='text' placeholder='Name'/>
           <Component.Input type='email' placeholder='Email'/>
@@ -29,22 +29,22 @@ export default function LoginSignup() {
           </form>
         </div>
 
-        <div className='banner-container'>
-          <div className='banner'>
+        <div className='banner-container' activity={signin}>
+          <div className='banner' activity={signin}>
 
-            <div className='left-banner'>
+            <div className='left-banner' activity={signin}>
               <h1>Sign In</h1>
               <p>welcome to our website </p>
-              <Component.Button>SIGN IN</Component.Button>
+              <Component.Button onClick={()=> toggle(true)}>SIGN IN</Component.Button>
               <p></p>
               
             </div>
 
-            <div className='right-banner'>
+            <div className='right-banner' activity={signin}>
             <h1>Create Account</h1>
             <p>create account to enjoy personalized experience to thid website</p>
             <p>...</p>
-            <Component.Button>SIGN UP</Component.Button>
+            <Component.Button onClick={()=> toggle(false)}>SIGN UP</Component.Button>
 
 
             </div>

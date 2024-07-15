@@ -29,7 +29,7 @@ export default function LoginSignup() {
           </form>
         </div>
 
-        <div className='banner-container' activity={signin}>
+        <div className={`banner-container ${!signin ? 'active' : ''}`}>
           <div className='banner' activity={signin}>
 
             <div className='left-banner' activity={signin}>

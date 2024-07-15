@@ -10,6 +10,7 @@ export default function LoginSignup() {
 
         <div className={`signin-container ${!signin ? 'active' : ''}`}>
           <form className='login-form'>
+            <h2>Sign In</h2>
             <Component.Input type='email' placeholder='Email / Username'/>
             <Component.Input type='password' placeholder='Password'/>
             <div className='forgot-remember'>
@@ -22,6 +23,7 @@ export default function LoginSignup() {
 
         <div className={`signup-container ${!signin ? 'active' : ''}`}>
           <form className='login-form'>
+          <h2>Create Account</h2>
           <Component.Input type='text' placeholder='Name'/>
           <Component.Input type='email' placeholder='Email'/>
           <Component.Input type='password' placeholder='Password'/>

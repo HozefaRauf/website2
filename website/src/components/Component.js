@@ -21,7 +21,7 @@ border: 1px solid #800000;
 color: white;
 font-size: 12px;
 font-weight: bold;
-padding: 1.5% 13.5%;
+padding: 2.5% 15.5%;
 border-radius: 20px;
 transition: background-color 0.3s ease; 
 

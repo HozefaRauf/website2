@@ -10,24 +10,24 @@ export default function LoginSignup() {
 
         <div className={`signin-container ${!signin ? 'active' : ''}`}>
           <form className='login-form'>
-            <h2>Sign In</h2>
+            <h2 className='heading'>Sign In</h2>
             <Component.Input type='email' placeholder='Email / Username'/>
             <Component.Input type='password' placeholder='Password'/>
             <div className='forgot-remember'>
               <label className='remember'><input type='checkbox' id='remember-me' name='remember-me'/>Remember Me</label>
               <a href='#' className='forgot'>Forgot Password?</a>
             </div>
-            <Component.Button>SIGN IN</Component.Button>
+            <Component.Button className='bt'>SIGN IN</Component.Button>
           </form>
         </div>
 
         <div className={`signup-container ${!signin ? 'active' : ''}`}>
           <form className='login-form'>
-          <h2>Create Account</h2>
+          <h2 className='heading'>Create Account</h2>
           <Component.Input type='text' placeholder='Name'/>
           <Component.Input type='email' placeholder='Email'/>
           <Component.Input type='password' placeholder='Password'/>
-          <Component.Button>SIGN UP</Component.Button>
+          <Component.Button className='bt'>SIGN UP</Component.Button>
           </form>
         </div>
 

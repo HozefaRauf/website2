@@ -20,11 +20,13 @@
     position: absolute;
     opacity: 0;
     width: 50%;
+    z-index: 2;
 }
 .signup-container{
     position: absolute;
     width: 50%;
     opacity: 0;
+    z-index: 1;
 }
 .login-form{
     display: flex;

@@ -46,6 +46,7 @@ export default function LoginSignup() {
             <h1>Create Account</h1>
             <p>create account to enjoy personalized experience to thid website</p>
             <p>...</p>
+            <p></p>
             <Component.GhostButton onClick={()=> toggle(false)}>SIGN UP</Component.GhostButton>
 
 

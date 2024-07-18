@@ -1,11 +1,10 @@
-import { View, Text } from 'react-native'
 import React from 'react'
 
-const Landing = () => {
+function Landing() {
   return (
-    <View>
-      <Text>Landing</Text>
-    </View>
+    <div>
+        <p>hhhhhh</p>
+    </div>
   )
 }
 

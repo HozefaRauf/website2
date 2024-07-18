@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container2{
+    align-content: center;
+    margin-top: 100px;
+    width:550px;
+    height: 350px;
+    background-color: palevioletred;
+    border:2px solid blue;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 4px 4px 5px 3px black, 10px 10px 5px blue ;
+}

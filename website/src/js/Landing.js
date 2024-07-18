@@ -1,10 +1,14 @@
 import React from 'react'
-
+import '../css/Landing.css'
 function Landing() {
   return (
-    <div>
-        <p>hhhhhh</p>
+    <>
+    <div className="container1">
+        <div className='container2'>
+        <p>PARMCRDINS011</p>
     </div>
+    </div>
+    </>
   )
 }
 

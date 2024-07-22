@@ -11,7 +11,7 @@ function Landing() {
       <p>hhhhhh</p>
   </div>
   <div className='container2'>
-      <p>PARMCRDINS01</p>
+      <p>PARMCRDINS0</p>
   </div>
   </div>
     </>

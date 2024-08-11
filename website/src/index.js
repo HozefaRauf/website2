@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Landing from './js/Landing.js'
+import Landing from './js/LoginSignup.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
